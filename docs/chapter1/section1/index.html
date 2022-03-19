@@ -1,0 +1,1251 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>动态规划 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../section2/" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. 常见算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../section2/">
+            
+                <a href="../section2/">
+            
+                    
+                    回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../section3/">
+            
+                <a href="../section3/">
+            
+                    
+                    bfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../section4/">
+            
+                <a href="../section4/">
+            
+                    
+                    滑动窗口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../section5/">
+            
+                <a href="../section5/">
+            
+                    
+                    树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../section6/">
+            
+                <a href="../section6/">
+            
+                    
+                    图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../section7/">
+            
+                <a href="../section7/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../section8/">
+            
+                <a href="../section8/">
+            
+                    
+                    子序列（动态规划）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../section9/">
+            
+                <a href="../section9/">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../section10/">
+            
+                <a href="../section10/">
+            
+                    
+                    二分搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../section11/">
+            
+                <a href="../section11/">
+            
+                    
+                    随机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../section12/">
+            
+                <a href="../section12/">
+            
+                    
+                    去重
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../section13/">
+            
+                <a href="../section13/">
+            
+                    
+                    双指针技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../section14/">
+            
+                <a href="../section14/">
+            
+                    
+                    其它技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../section15/">
+            
+                <a href="../section15/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. 牛客题霸-模板速刷TOP101
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../chapter2/section1/">
+            
+                <a href="../../chapter2/section1/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../chapter2/section2/">
+            
+                <a href="../../chapter2/section2/">
+            
+                    
+                    二分查找/排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../chapter2/section3/">
+            
+                <a href="../../chapter2/section3/">
+            
+                    
+                    二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../chapter2/section4/">
+            
+                <a href="../../chapter2/section4/">
+            
+                    
+                    堆/栈/队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../chapter2/section5/">
+            
+                <a href="../../chapter2/section5/">
+            
+                    
+                    哈希
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../chapter2/section6/">
+            
+                <a href="../../chapter2/section6/">
+            
+                    
+                    递归/回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../chapter2/section7/">
+            
+                <a href="../../chapter2/section7/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../chapter2/section8/">
+            
+                <a href="../../chapter2/section8/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../chapter2/section9/">
+            
+                <a href="../../chapter2/section9/">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../chapter2/section10/">
+            
+                <a href="../../chapter2/section10/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../../chapter2/section11/">
+            
+                <a href="../../chapter2/section11/">
+            
+                    
+                    模拟
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. 笔试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../chapter3/section1/">
+            
+                <a href="../../chapter3/section1/">
+            
+                    
+                    格尔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../chapter3/section2/">
+            
+                <a href="../../chapter3/section2/">
+            
+                    
+                    360
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. leetcode
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../chapter4/section1/">
+            
+                <a href="../../chapter4/section1/">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. 算法练习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../chapter5/section1/">
+            
+                <a href="../../chapter5/section1/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../chapter5/section2/">
+            
+                <a href="../../chapter5/section2/">
+            
+                    
+                    排序算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../chapter5/section3/">
+            
+                <a href="../../chapter5/section3/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../chapter5/section4/">
+            
+                <a href="../../chapter5/section4/">
+            
+                    
+                    递归算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../chapter5/section5/">
+            
+                <a href="../../chapter5/section5/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../chapter5/section6/">
+            
+                <a href="../../chapter5/section6/">
+            
+                    
+                    回溯算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../chapter5/section7/">
+            
+                <a href="../../chapter5/section7/">
+            
+                    
+                    精度算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../../chapter5/section8/">
+            
+                <a href="../../chapter5/section8/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. 蓝桥杯
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../chapter6/section1/">
+            
+                <a href="../../chapter6/section1/">
+            
+                    
+                    入门练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../chapter6/section2/">
+            
+                <a href="../../chapter6/section2/">
+            
+                    
+                    基础练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../chapter6/section3/">
+            
+                <a href="../../chapter6/section3/">
+            
+                    
+                    进阶练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >动态规划</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; qgao 2021-* all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#&#x6590;&#x6CE2;&#x90A3;&#x5951;&#x6570;&#x5217;">&#x6590;&#x6CE2;&#x90A3;&#x5951;&#x6570;&#x5217;</a><i></i></div></li>
+<li><div><a href="#&#x51D1;&#x96F6;&#x94B1;&#x95EE;&#x9898;">&#x51D1;&#x96F6;&#x94B1;&#x95EE;&#x9898;</a><i></i></div></li>
+<li><div><a href="#&#x80A1;&#x7968;&#x4E70;&#x5356;">&#x80A1;&#x7968;&#x4E70;&#x5356;</a><i></i></div></li>
+<li><div><a href="#&#x6253;&#x5BB6;&#x52AB;&#x820D;">&#x6253;&#x5BB6;&#x52AB;&#x820D;</a><i></i></div></li>
+<li><div><a href="#&#x80CC;&#x5305;">&#x80CC;&#x5305;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#0-1-&#x80CC;&#x5305;">0-1 &#x80CC;&#x5305;</a><i></i></div></li>
+<li><div><a href="#&#x90E8;&#x5206;&#x80CC;&#x5305;">&#x90E8;&#x5206;&#x80CC;&#x5305;</a><i></i></div></li>
+<li><div><a href="#&#x5B8C;&#x5168;&#x80CC;&#x5305;">&#x5B8C;&#x5168;&#x80CC;&#x5305;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x4E0B;&#x964D;&#x8DEF;&#x5F84;&#x6700;&#x5C0F;&#x548C;">&#x4E0B;&#x964D;&#x8DEF;&#x5F84;&#x6700;&#x5C0F;&#x548C;</a><i></i></div></li>
+<li><div><a href="#&#x6700;&#x5C0F;&#x7F16;&#x8F91;&#x8DDD;&#x79BB;">&#x6700;&#x5C0F;&#x7F16;&#x8F91;&#x8DDD;&#x79BB;</a><i></i></div></li>
+<li><div><a href="#&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;">&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;</a><i></i></div></li>
+</ul>
+</div>
+
+<h1 id="&#x52A8;&#x6001;&#x89C4;&#x5212;">&#x52A8;&#x6001;&#x89C4;&#x5212;</h1>
+<h2 id="&#x6590;&#x6CE2;&#x90A3;&#x5951;&#x6570;&#x5217;"><strong>&#x6590;&#x6CE2;&#x90A3;&#x5951;&#x6570;&#x5217;</strong></h2>
+<pre><code>int fib(int N) {  
+    if (N &lt; 1) return 0;  
+    // &#x5907;&#x5FD8;&#x5F55;&#x5168;&#x521D;&#x59CB;&#x5316;&#x4E3A; 0  
+    vector&lt;int&gt; memo(N + 1, 0);  
+    // &#x521D;&#x59CB;&#x5316;&#x6700;&#x7B80;&#x60C5;&#x51B5;  
+    return helper(memo, N);  
+}  
+
+int helper(vector&lt;int&gt;&amp; memo, int n) {  
+    // base case   
+    if (n == 1 || n == 2) return 1;  
+    // &#x5DF2;&#x7ECF;&#x8BA1;&#x7B97;&#x8FC7;  
+    if (memo[n] != 0) return memo[n];  
+    memo[n] = helper(memo, n - 1) +   
+        helper(memo, n - 2);  
+    return memo[n];  
+}
+</code></pre><h2 id="&#x51D1;&#x96F6;&#x94B1;&#x95EE;&#x9898;"><strong>&#x51D1;&#x96F6;&#x94B1;&#x95EE;&#x9898;</strong></h2>
+<pre><code>def coinChange(coins: List[int], amount: int):  
+    # &#x5907;&#x5FD8;&#x5F55;  
+    memo = dict()  
+    def dp(n):  
+    # &#x67E5;&#x5907;&#x5FD8;&#x5F55;&#xFF0C;&#x907F;&#x514D;&#x91CD;&#x590D;&#x8BA1;&#x7B97;  
+    if n in memo: return memo[n]  
+
+    if n == 0: return 0  
+    if n &lt; 0: return -1  
+    res = float(&apos;INF&apos;)  
+    for coin in coins:  
+        subproblem = dp(n - coin)  
+        if subproblem == -1: continue  
+        res = min(res, 1 + subproblem)  
+
+    # &#x8BB0;&#x5165;&#x5907;&#x5FD8;&#x5F55;  
+    memo[n] = res if res != float(&apos;INF&apos;) else -1  
+    return memo[n]  
+
+    return dp(amount)
+</code></pre><h2 id="&#x80A1;&#x7968;&#x4E70;&#x5356;"><strong>&#x80A1;&#x7968;&#x4E70;&#x5356;</strong></h2>
+<p>&#x4E00;&#x6B21;&#x4EA4;&#x6613;&#x7531;&#x4E70;&#x5165;&#x548C;&#x5356;&#x51FA;&#x6784;&#x6210;&#xFF0C;&#x81F3;&#x5C11;&#x9700;&#x8981;&#x4E24;&#x5929;&#x3002;&#x6240;&#x4EE5;&#x8BF4;&#x6709;&#x6548;&#x7684;&#x9650;&#x5236;&#x6B21;&#x6570; k &#x5E94;&#x8BE5;&#x4E0D;&#x8D85;&#x8FC7; n/2&#xFF0C;&#x5982;&#x679C;&#x8D85;&#x8FC7;&#xFF0C;&#x5C31;&#x6CA1;&#x6709;&#x7EA6;&#x675F;&#x4F5C;&#x7528;&#x4E86;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E; k = +infinity&#x3002;</p>
+<p><img src="../media/1.jpg" alt="c:\users\asus\Desktop\&#x5FAE;&#x4FE1;&#x56FE;&#x7247;\_20211105144824.jpg"></p>
+<p>&#x7B2C;&#x4E00;&#x9898;&#x662F;&#x53EA;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x4EA4;&#x6613;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E; k = 1&#xFF1B;</p>
+<p>&#x7B2C;&#x4E8C;&#x9898;&#x662F;&#x4E0D;&#x9650;&#x4EA4;&#x6613;&#x6B21;&#x6570;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E; k = +infinity&#xFF08;&#x6B63;&#x65E0;&#x7A77;&#xFF09;&#xFF1B;</p>
+<p>&#x7B2C;&#x4E09;&#x9898;&#x662F;&#x53EA;&#x8FDB;&#x884C; 2 &#x6B21;&#x4EA4;&#x6613;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E; k = 2&#xFF1B;</p>
+<p>&#x5269;&#x4E0B;&#x4E24;&#x9053;&#x4E5F;&#x662F;&#x4E0D;&#x9650;&#x4EA4;&#x6613;&#x6B21;&#x6570;&#xFF0C;&#x4F46;&#x662F;&#x52A0;&#x4E86;&#x4EA4;&#x6613;&#x300C;&#x51B7;&#x51BB;&#x671F;&#x300D;&#x548C;&#x300C;&#x624B;&#x7EED;&#x8D39;&#x300D;&#x7684;&#x989D;&#x5916;&#x6761;&#x4EF6;&#xFF0C;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x7B2C;&#x4E8C;&#x9898;&#x7684;&#x53D8;&#x79CD;&#xFF0C;&#x90FD;&#x5F88;&#x5BB9;&#x6613;&#x5904;&#x7406;&#x3002;</p>
+<p><img src="../media/2.jpg" alt="c:\users\asus\Desktop\&#x5FAE;&#x4FE1;&#x56FE;&#x7247;\_20211105151657.jpg"></p>
+<p>dp[3][2][1] &#x7684;&#x542B;&#x4E49;&#x5C31;&#x662F;&#xFF1A;&#x4ECA;&#x5929;&#x662F;&#x7B2C;&#x4E09;&#x5929;&#xFF0C;&#x6211;&#x73B0;&#x5728;&#x624B;&#x4E0A;&#x6301;&#x6709;&#x7740;&#x80A1;&#x7968;&#xFF0C;&#x81F3;&#x4ECA;&#x5DF2;&#x7ECF;&#x8FDB;&#x884C;&#x4E86; 2 &#x6B21;&#x4EA4;&#x6613;&#x3002;</p>
+<pre><code>int maxProfit_k_any(int max_k, int[] prices) {
+    int n = prices.length;
+    if (max_k &gt; n / 2)  
+        return maxProfit_k_inf(prices);
+    int[][][] dp = new int[n][max_k + 1][2];
+    for (int i = 0; i &lt; n; i++)  {
+        for (int k = max_k; k &gt;= 1; k--) {
+            if (i - 1 == -1) {
+                dp[i][k][0] = 0;
+                dp[i][k][1] = - prices[i];
+                continue;
+            }
+            dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i]);
+            dp[i][k][1] = max(dp[i-1][k][1], dp[i-l][k-1][0] - prices[i]);
+        }
+    }
+    return dp[n - 1] [max_k] [0];
+}
+</code></pre><h2 id="&#x6253;&#x5BB6;&#x52AB;&#x820D;"><strong>&#x6253;&#x5BB6;&#x52AB;&#x820D;</strong></h2>
+<p>198</p>
+<pre><code>class Solution {
+    public int rob(int[] nums) {
+        if(nums.length == 1){
+            return nums[0];
+        } else if(nums.length == 2){
+            return Math.max(nums[0],nums[1]);
+        }
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0],nums[1]);
+        for (int i = 2; i &lt; nums.length; i++){
+            dp[i] = Math.max(dp[i-1],dp[i-2]+nums[i]);
+        }
+        return dp[nums.length-1];
+    }
+}
+</code></pre><h2 id="&#x80CC;&#x5305;"><strong>&#x80CC;&#x5305;</strong></h2>
+<h3 id="0-1-&#x80CC;&#x5305;"><strong>0-1 &#x80CC;&#x5305;</strong></h3>
+<p>&#x7ED9;&#x4F60;&#x4E00;&#x4E2A;&#x53EF;&#x88C5;&#x8F7D;&#x91CD;&#x91CF;&#x4E3A;W&#x7684;&#x80CC;&#x5305;&#x548C;N&#x4E2A;&#x7269;&#x54C1;&#xFF0C;&#x6BCF;&#x4E2A;&#x7269;&#x54C1;&#x6709;&#x91CD;&#x91CF;&#x548C;&#x4EF7;&#x503C;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x3002;&#x5176;&#x4E2D;&#x7B2C;i&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x91CD;&#x91CF;&#x4E3A;wt[i]&#xFF0C;&#x4EF7;&#x503C;&#x4E3A;val[i]&#xFF0C;&#x73B0;&#x5728;&#x8BA9;&#x4F60;&#x7528;&#x8FD9;&#x4E2A;&#x80CC;&#x5305;&#x88C5;&#x7269;&#x54C1;&#xFF0C;&#x6700;&#x591A;&#x80FD;&#x88C5;&#x7684;&#x4EF7;&#x503C;&#x662F;&#x591A;&#x5C11;&#xFF1F;</p>
+<p>&#x4E3E;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;&#xFF0C;&#x8F93;&#x5165;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>N = 3, W = 4</p>
+<p>wt = [2, 1, 3]</p>
+<p>val = [4, 2, 3]</p>
+<p>&#x7B97;&#x6CD5;&#x8FD4;&#x56DE; 6&#xFF0C;&#x9009;&#x62E9;&#x524D;&#x4E24;&#x4EF6;&#x7269;&#x54C1;&#x88C5;&#x8FDB;&#x80CC;&#x5305;&#xFF0C;&#x603B;&#x91CD;&#x91CF; 3 &#x5C0F;&#x4E8E;W&#xFF0C;&#x53EF;&#x4EE5;&#x83B7;&#x5F97;&#x6700;&#x5927;&#x4EF7;&#x503C; 6&#x3002;</p>
+<p>dp[i][w]&#x7684;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;&#x5BF9;&#x4E8E;&#x524D;i&#x4E2A;&#x7269;&#x54C1;&#xFF0C;&#x5F53;&#x524D;&#x80CC;&#x5305;&#x7684;&#x603B;&#x5BB9;&#x91CF;&#x4E3A;w&#xFF0C;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x53EF;&#x4EE5;&#x88C5;&#x7684;&#x6700;&#x5927;&#x4EF7;&#x503C;&#x662F;dp[i][w]&#x3002;</p>
+<pre><code>int knapsack(int W, int N, vector&lt;int&gt;&amp; wt, vector&lt;int&gt;&amp; val) {  
+    // vector &#x5168;&#x586B;&#x5165; 0&#xFF0C;base case &#x5DF2;&#x521D;&#x59CB;&#x5316;  
+    vector&lt;vector&lt;int&gt;&gt; dp(N + 1, vector&lt;int&gt;(W + 1, 0));  
+    for (int i = 1; i &lt;= N; i++) {  
+    for (int w = 1; w &lt;= W; w++) {  
+        if (w - wt[i-1] &lt; 0) {  
+        // &#x5F53;&#x524D;&#x80CC;&#x5305;&#x5BB9;&#x91CF;&#x88C5;&#x4E0D;&#x4E0B;&#xFF0C;&#x53EA;&#x80FD;&#x9009;&#x62E9;&#x4E0D;&#x88C5;&#x5165;&#x80CC;&#x5305;  
+        dp[i][w] = dp[i - 1][w];  
+        } else {  
+        // &#x88C5;&#x5165;&#x6216;&#x8005;&#x4E0D;&#x88C5;&#x5165;&#x80CC;&#x5305;&#xFF0C;&#x62E9;&#x4F18;, i&#x662F;&#x4ECE; 1 &#x5F00;&#x59CB;&#x7684;&#xFF0C;&#x800C;&#x6570;&#x7EC4;&#x7D22;&#x5F15;&#x662F;&#x4ECE; 0 &#x5F00;&#x59CB;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x7B2C;i&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x91CD;&#x91CF;&#x5E94;&#x8BE5;&#x662F;wt [i-1] 
+        dp[i][w] = max(dp[i - 1][w - wt[i-1]] + val[i-1],   
+                   dp[i - 1][w]);  
+        }  
+    }  
+    }  
+    return dp[N][W];  
+}
+</code></pre><h3 id="&#x90E8;&#x5206;&#x80CC;&#x5305;"><strong>&#x90E8;&#x5206;&#x80CC;&#x5305;</strong></h3>
+<p>&#x529B;&#x6263;&#x7B2C;416&#xFF1A;&#x5C06;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5206;&#x5272;&#x6210;&#x4E24;&#x4E2A;&#x7B49;&#x548C;&#x7684;&#x5B50;&#x96C6;&#x3002;</p>
+<p>&#x5047;&#x8BBE;&#x80CC;&#x5305;&#x53EA;&#x80FD;&#x88C5;&#x4E00;&#x534A;&#xFF0C;&#x80FD;&#x5426;&#x521A;&#x597D;&#x88C5;&#x9F50;</p>
+<p>dp[i][j] = x&#x8868;&#x793A;&#xFF0C;&#x5BF9;&#x4E8E;&#x524D;i&#x4E2A;&#x7269;&#x54C1;&#xFF0C;&#x5F53;&#x524D;&#x80CC;&#x5305;&#x7684;&#x5BB9;&#x91CF;&#x4E3A;j&#x65F6;&#xFF0C;&#x82E5;x&#x4E3A;true&#xFF0C;&#x5219;&#x8BF4;&#x660E;&#x53EF;&#x4EE5;&#x6070;&#x597D;&#x5C06;&#x80CC;&#x5305;&#x88C5;&#x6EE1;&#xFF0C;&#x82E5;x&#x4E3A;false&#xFF0C;&#x5219;&#x8BF4;&#x660E;&#x4E0D;&#x80FD;&#x6070;&#x597D;&#x5C06;&#x80CC;&#x5305;&#x88C5;&#x6EE1;&#x3002;</p>
+<p><strong>base case &#x4E3A;true</strong>&#xFF1A;&#x5F53;&#x5BB9;&#x91CF;&#x4E3A;0&#x65F6;&#xFF0C;&#x67D0;&#x79CD;&#x542B;&#x4E49;&#x8868;&#x793A;&#x5DF2;&#x88AB;&#x88C5;&#x6EE1;&#xFF0C;&#x56E0;&#x6B64;&#x4E3A;true</p>
+<pre><code>bool canPartition(vector&lt;int&gt;&amp; nums) {  
+    int sum = 0;  
+    for (int num : nums) sum += num;  
+    // &#x548C;&#x4E3A;&#x5947;&#x6570;&#x65F6;&#xFF0C;&#x4E0D;&#x53EF;&#x80FD;&#x5212;&#x5206;&#x6210;&#x4E24;&#x4E2A;&#x548C;&#x76F8;&#x7B49;&#x7684;&#x96C6;&#x5408;  
+    if (sum % 2 != 0) return false;  
+    int n = nums.size();  
+    sum = sum / 2;  
+    vector&lt;vector&lt;bool&gt;&gt;   
+    dp(n + 1, vector&lt;bool&gt;(sum + 1, false));  
+    // base case  
+    for (int i = 0; i &lt;= n; i++)  
+    dp[i][0] = true;  
+
+    for (int i = 1; i &lt;= n; i++) {  
+    for (int j = 1; j &lt;= sum; j++) {  
+        if (j - nums[i - 1] &lt; 0) {  
+           // &#x80CC;&#x5305;&#x5BB9;&#x91CF;&#x4E0D;&#x8DB3;&#xFF0C;&#x4E0D;&#x80FD;&#x88C5;&#x5165;&#x7B2C; i &#x4E2A;&#x7269;&#x54C1;  
+        dp[i][j] = dp[i - 1][j];   
+        } else {  
+        // &#x88C5;&#x5165;&#x6216;&#x4E0D;&#x88C5;&#x5165;&#x80CC;&#x5305;  
+        dp[i][j] = dp[i - 1][j] | dp[i - 1][j-nums[i-1]];  
+        }  
+    }  
+    }  
+    return dp[n][sum];  
+}
+</code></pre><p>&#x72B6;&#x6001;&#x538B;&#x7F29;&#x540E;&#xFF1A;&#x6CE8;&#x610F;&#x5230;dp[i][j]&#x90FD;&#x662F;&#x901A;&#x8FC7;&#x4E0A;&#x4E00;&#x884C;dp[i-1][..]&#x8F6C;&#x79FB;&#x8FC7;&#x6765;&#x7684;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x4E00;&#x76F4;&#x662F;&#x4E24;&#x884C;&#x7684;&#x6570;&#x636E;&#x5728;&#x8F6E;&#x66FF;&#x3002;</p>
+<p><strong>j&#x8981;&#x53CD;&#x7740;&#x904D;&#x5386;</strong>&#xFF1A;dp&#x6570;&#x7EC4;&#x5176;&#x5B9E;&#x662F;&#x8D77;&#x7740;&#x4E00;&#x4E2A;&#x5907;&#x5FD8;&#x5F55;&#x7684;&#x4F5C;&#x7528;&#xFF0C;&#x89E3;&#x51B3;&#x91CD;&#x53E0;&#x5B50;&#x95EE;&#x9898;&#xFF0C;</p>
+<p>&#x5982;&#x679C;&#x6B63;&#x7740;&#x904D;&#x5386;&#xFF0C;&#x67D0;&#x4E00;&#x4E2A;dp[j]&#x3010;A&#x3011;&#x901A;&#x8FC7;&#x4E0A;&#x4E00;&#x884C;&#x7684;&#x6570;&#x636E;&#x8BA1;&#x7B97;&#x8FC7;&#x540E;&#xFF0C;&#x4E4B;&#x540E;&#x82E5;&#x6709;&#x522B;&#x7684;dp[j]&#x3010;B&#x3011;&#x8981;&#x901A;&#x8FC7;&#x4E0A;&#x4E00;&#x884C;&#x7684;A&#x6765;&#x66F4;&#x65B0;&#x7684;&#x8BDD;&#xFF0C;&#x4F46;&#x5B9E;&#x9645;&#x4E0A;&#x83B7;&#x5F97;&#x7684;&#x5374;&#x662F;&#x8FD9;&#x4E00;&#x884C;&#x91CD;&#x65B0;&#x66F4;&#x65B0;&#x540E;&#x7684;A&#xFF0C;&#x4E0E;&#x9898;&#x610F;&#x4E0D;&#x7B26;&#xFF0C;</p>
+<p>&#x4F46;&#x5982;&#x679C;&#x662F;&#x53CD;&#x7740;&#x904D;&#x5386;&#xFF0C;&#x90A3;&#x4E48;&#x5F53;&#x524D;&#x884C;&#x7684;&#x66F4;&#x65B0;&#x6C38;&#x8FDC;&#x90FD;&#x662F;&#x901A;&#x8FC7;&#x4E0A;&#x4E00;&#x884C;&#x7684;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x7684;&#x66F4;&#x65B0;&#x3002;</p>
+<pre><code>bool canPartition(vector&lt;int&gt;&amp; nums) {  
+    int sum = 0, n = nums.size();  
+    for (int num : nums) sum += num;  
+    if (sum % 2 != 0) return false;  
+    sum = sum / 2;  
+    vector&lt;bool&gt; dp(sum + 1, false);  
+    // base case  
+    dp[0] = true;  
+
+    for (int i = 0; i &lt; n; i++)   
+    for (int j = sum; j &gt;= 0; j--)   
+        if (j - nums[i] &gt;= 0)   
+        dp[j] = dp[j] || dp[j - nums[i]];  
+
+    return dp[sum];  
+}
+</code></pre><h3 id="&#x5B8C;&#x5168;&#x80CC;&#x5305;"><strong>&#x5B8C;&#x5168;&#x80CC;&#x5305;</strong></h3>
+<p>LeetCode &#x7B2C; 518 &#x9898;&#xFF0C;&#x51D1;&#x96F6;&#x94B1;2</p>
+<p>&#x7ED9;&#x5B9A;&#x4E0D;&#x540C;&#x9762;&#x989D;&#x7684;&#x786C;&#x5E01;&#x548C;&#x4E00;&#x4E2A;&#x603B;&#x91D1;&#x989D;&#x3002;&#x5199;&#x51FA;&#x51FD;&#x6570;&#x6765;&#x8BA1;&#x7B97;&#x53EF;&#x4EE5;&#x51D1;&#x6210;&#x603B;&#x91D1;&#x989D;&#x7684;&#x786C;&#x5E01;&#x7EC4;&#x5408;&#x6570;&#xFF0C;&#x5047;&#x8BBE;&#x6BCF;&#x4E00;&#x79CD;&#x9762;&#x989D;&#x7684;&#x786C;&#x5E01;&#x6709;&#x65E0;&#x9650;&#x4E2A;&#x3002;</p>
+<p><img src="../media/3.png" alt=""></p>
+<p>&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x80CC;&#x5305;&#xFF0C;&#x6700;&#x5927;&#x5BB9;&#x91CF;&#x4E3A;amount&#xFF0C;&#x6709;&#x4E00;&#x7CFB;&#x5217;&#x7269;&#x54C1;coins&#xFF0C;&#x6BCF;&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x91CD;&#x91CF;&#x4E3A;coins[i]&#xFF0C;&#x6BCF;&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x6570;&#x91CF;&#x65E0;&#x9650;&#x3002;&#x8BF7;&#x95EE;&#x6709;&#x591A;&#x5C11;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x80FD;&#x591F;&#x628A;&#x80CC;&#x5305;&#x6070;&#x597D;&#x88C5;&#x6EE1;&#xFF1F;</p>
+<p>&#x548C;&#x4E4B;&#x524D;&#x7684;&#x4E24;&#x4E2A;&#x80CC;&#x5305;&#x95EE;&#x9898;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x6700;&#x5927;&#x7684;&#x533A;&#x522B;&#x5C31;&#x662F;&#xFF0C;<strong>&#x6BCF;&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x6570;&#x91CF;&#x662F;&#x65E0;&#x9650;&#x7684;</strong>&#xFF0C;&#x8FD9;&#x4E5F;&#x5C31;&#x662F;&#x4F20;&#x8BF4;&#x4E2D;&#x7684;&#x300C;<strong>&#x5B8C;&#x5168;&#x80CC;&#x5305;&#x95EE;&#x9898;</strong>&#x300D;</p>
+<p><strong>dp[i][j]&#x7684;&#x5B9A;&#x4E49;</strong>&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#x82E5;&#x53EA;&#x4F7F;&#x7528;&#x524D;i&#x4E2A;&#x7269;&#x54C1;&#xFF0C;&#x5F53;&#x80CC;&#x5305;&#x5BB9;&#x91CF;&#x4E3A;j&#x65F6;&#xFF0C;&#x6709;dp[i][j]&#x79CD;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x88C5;&#x6EE1;&#x80CC;&#x5305;&#x3002;</p>
+<p>&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x7FFB;&#x8BD1;&#x56DE;&#x6211;&#x4EEC;&#x9898;&#x76EE;&#x7684;&#x610F;&#x601D;&#x5C31;&#x662F;&#xFF1A;</p>
+<p><strong>&#x82E5;&#x53EA;&#x4F7F;&#x7528;coins&#x4E2D;&#x7684;&#x524D;i&#x4E2A;&#x786C;&#x5E01;&#x7684;&#x9762;&#x503C;&#xFF0C;&#x82E5;&#x60F3;&#x51D1;&#x51FA;&#x91D1;&#x989D;j&#xFF0C;&#x6709;dp[i][j]&#x79CD;&#x51D1;&#x6CD5;</strong>&#x3002;</p>
+<p>&#x7ECF;&#x8FC7;&#x4EE5;&#x4E0A;&#x7684;&#x5B9A;&#x4E49;&#xFF0C;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#xFF1A;</p>
+<p><strong>base case</strong> &#x4E3A;&#xFF1A;</p>
+<p>dp[0][..] = 0&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x4F7F;&#x7528;&#x4EFB;&#x4F55;&#x786C;&#x5E01;&#x9762;&#x503C;&#xFF0C;&#x5C31;&#x65E0;&#x6CD5;&#x51D1;&#x51FA;&#x4EFB;&#x4F55;&#x91D1;&#x989D;&#xFF1B;</p>
+<p>dp[..][0] = 1&#xFF0C;&#x5982;&#x679C;&#x51D1;&#x51FA;&#x7684;&#x76EE;&#x6807;&#x91D1;&#x989D;&#x4E3A; 0&#xFF0C;&#x90A3;&#x4E48;&#x201C;&#x65E0;&#x4E3A;&#x800C;&#x6CBB;&#x201D;&#x5C31;&#x662F;&#x552F;&#x4E00;&#x7684;&#x4E00;&#x79CD;&#x51D1;&#x6CD5;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x6700;&#x7EC8;&#x60F3;&#x5F97;&#x5230;&#x7684;&#x7B54;&#x6848;&#x5C31;&#x662F;dp[N][amount]&#xFF0C;&#x5176;&#x4E2D;N&#x4E3A;coins&#x6570;&#x7EC4;&#x7684;&#x5927;&#x5C0F;&#x3002;</p>
+<pre><code>int change(int amount, int[] coins) {  
+    int n = coins.length;  
+    int[][] dp = amount int[n + 1][amount + 1];  
+    // base case  
+    for (int i = 0; i &lt;= n; i++)   
+    dp[i][0] = 1;  
+
+    for (int i = 1; i &lt;= n; i++) {  
+    for (int j = 1; j &lt;= amount; j++)  
+        if (j - coins[i-1] &gt;= 0)  
+        dp[i][j] = dp[i - 1][j]   
+             + dp[i][j - coins[i-1]];  
+        else   
+        dp[i][j] = dp[i - 1][j];  
+    }  
+    return dp[n][amount];  
+}
+</code></pre><p>&#x72B6;&#x6001;&#x538B;&#x7F29;&#xFF1A;</p>
+<pre><code>int change(int amount, int[] coins) {  
+    int n = coins.length;  
+    int[] dp = new int[amount + 1];  
+    dp[0] = 1; // base case  
+    for (int i = 0; i &lt; n; i++)  
+    for (int j = 1; j &lt;= amount; j++)  
+        if (j - coins[i] &gt;= 0)  
+        dp[j] = dp[j] + dp[j-coins[i]];  
+
+    return dp[amount];  
+}
+</code></pre><h2 id="&#x4E0B;&#x964D;&#x8DEF;&#x5F84;&#x6700;&#x5C0F;&#x548C;"><strong>&#x4E0B;&#x964D;&#x8DEF;&#x5F84;&#x6700;&#x5C0F;&#x548C;</strong></h2>
+<p>&#x529B;&#x6263;&#x7B2C; 931 &#x9898;</p>
+<p>&#x4ECE;&#x7B2C;&#x4E00;&#x884C;matrix[0][..]&#x5411;&#x4E0B;&#x843D;&#xFF0C;&#x843D;&#x5230;&#x4F4D;&#x7F6E;matrix[i][j]&#x7684;&#x6700;&#x5C0F;&#x8DEF;&#x5F84;&#x548C;&#x4E3A;dp(matrix, i, j)&#x3002;</p>
+<pre><code>public int minFallingPathSum(int[][] matrix) {  
+    int n = matrix.length;  
+    int res = Integer.MAX_VALUE;  
+    // &#x5907;&#x5FD8;&#x5F55;&#x91CC;&#x7684;&#x503C;&#x521D;&#x59CB;&#x5316;&#x4E3A; 66666  
+    memo = new int[n][n];  
+    for (int i = 0; i &lt; n; i++) {  
+    Arrays.fill(memo[i], 66666);  
+    }  
+    // &#x7EC8;&#x70B9;&#x53EF;&#x80FD;&#x5728; matrix[n-1] &#x7684;&#x4EFB;&#x610F;&#x4E00;&#x5217;  
+    for (int j = 0; j &lt; n; j++) {  
+    res = Math.min(res, dp(matrix, n - 1, j));  
+    }  
+    return res;  
+}  
+
+// &#x5907;&#x5FD8;&#x5F55;  
+int[][] memo;  
+
+int dp(int[][] matrix, int i, int j) {  
+    // 1&#x3001;&#x7D22;&#x5F15;&#x5408;&#x6CD5;&#x6027;&#x68C0;&#x67E5;  
+    if (i &lt; 0 || j &lt; 0 ||  
+    i &gt;= matrix.length ||  
+    j &gt;= matrix[0].length) {  
+
+    return 99999;  
+    }  
+    // 2&#x3001;base case  
+    if (i == 0) {  
+    return matrix[0][j];  
+    }  
+    // 3&#x3001;&#x67E5;&#x627E;&#x5907;&#x5FD8;&#x5F55;&#xFF0C;&#x9632;&#x6B62;&#x91CD;&#x590D;&#x8BA1;&#x7B97;  
+    if (memo[i][j] != 66666) {  
+    return memo[i][j];  
+    }  
+    // &#x8FDB;&#x884C;&#x72B6;&#x6001;&#x8F6C;&#x79FB;  
+    memo[i][j] = matrix[i][j] + min(  
+        dp(matrix, i - 1, j),   
+        dp(matrix, i - 1, j - 1),  
+        dp(matrix, i - 1, j + 1)  
+    );  
+
+    return memo[i][j];  
+}  
+
+int min(int a, int b, int c) {  
+    return Math.min(a, Math.min(b, c));  
+}
+</code></pre><h2 id="&#x6700;&#x5C0F;&#x7F16;&#x8F91;&#x8DDD;&#x79BB;"><strong>&#x6700;&#x5C0F;&#x7F16;&#x8F91;&#x8DDD;&#x79BB;</strong></h2>
+<p><code>dp[i-1][j-1]   # &#x5B58;&#x50A8; s1[0..i] &#x548C; s2[0..j] &#x7684;&#x6700;&#x5C0F;&#x7F16;&#x8F91;&#x8DDD;&#x79BB;</code></p>
+<p><img src="../media/4.gif" alt="c:\users\asus\Desktop\&#x5FAE;&#x4FE1;&#x56FE;&#x7247;\_20211106130113.gif"></p>
+<pre><code>int minDistance(String s1, String s2) {  
+    int m = s1.length(), n = s2.length();  
+    int[][] dp = new int[m + 1][n + 1];  
+    // base case  
+    for(int i = 1; i &lt;= m; i++) dp[i][0] = i; //&#x5220;&#x9664;s1&#x7684;i&#x4E2A;&#x5B57;&#x7B26;  
+    for(int j = 1; j &lt;= n; j++) dp[0][j] = j; //&#x5F80;s1&#x63D2;&#x5165;j&#x4E2A;&#x5B57;&#x7B26;  
+    for(int i = 1; i &lt;= m; i++)  
+        for(int j = 1; j &lt;= n; j++)  
+            if(s1.charAt(i - 1) == s2.charAt(j - 1)) dp[i][j] = dp[i - 1][j - 1];//&#x76F8;&#x7B49;&#xFF0C;&#x4E0D;&#x505A;&#x64CD;&#x4F5C;  
+            else dp[i][j] = Math.min(  
+                    dp[i - 1][j] + 1, //&#x5220;&#x9664;s1&#x4E2D;i&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x7B26;  
+                    dp[i][j - 1] + 1, //&#x5F80;s1&#x63D2;&#x5165;s2&#x4E2D;j&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x7B26;  
+                    dp[i - 1][j - 1] + 1//&#x628A;s1&#x4E2D;i&#x7684;&#x5B57;&#x7B26;&#x66FF;&#x6362;&#x4E3A;s2&#x4E2D;j&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x7B26;  
+                    );  
+    //&#x5B58;&#x7684;&#x6574;&#x4E2A;s1&#x5230;s2&#x7684;&#x6700;&#x5C0F;&#x4FEE;&#x6539;&#x8DDD;&#x79BB;  
+    return dp[m][n];  
+}  
+int min(int a, int b, int c) {  
+    return Math.min(a, Math.min(b, c));  
+}
+</code></pre><pre><code>// int[][] dp;
+Node[][] dp;
+
+class Node {
+    int val;
+    int choice;
+    // 0 &#x4EE3;&#x8868;&#x5565;&#x90FD;&#x4E0D;&#x505A;
+    // 1 &#x4EE3;&#x8868;&#x63D2;&#x5165;
+    // 2 &#x4EE3;&#x8868;&#x5220;&#x9664;
+    // 3 &#x4EE3;&#x8868;&#x66FF;&#x6362;
+}
+</code></pre><p><img src="../media/5.jpg" alt="c:\users\asus\Desktop\&#x5FAE;&#x4FE1;&#x56FE;&#x7247;\_20211106131434.jpg"></p>
+<h2 id="&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;"><strong>&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;</strong></h2>
+<p>&#x4EE5;nums[i]&#x4E3A;&#x7ED3;&#x5C3E;&#x7684;&#x300C;&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x300D;&#x4E3A;dp[i]</p>
+<p>dp[i]&#x6709;&#x4E24;&#x79CD;&#x300C;&#x9009;&#x62E9;&#x300D;&#xFF0C;</p>
+<p>&#x8981;&#x4E48;&#x4E0E;&#x524D;&#x9762;&#x7684;&#x76F8;&#x90BB;&#x5B50;&#x6570;&#x7EC4;&#x8FDE;&#x63A5;&#xFF0C;&#x5F62;&#x6210;&#x4E00;&#x4E2A;&#x548C;&#x66F4;&#x5927;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#xFF1B;</p>
+<p>&#x8981;&#x4E48;&#x4E0D;&#x4E0E;&#x524D;&#x9762;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x8FDE;&#x63A5;&#xFF0C;&#x81EA;&#x6210;&#x4E00;&#x6D3E;&#xFF0C;&#x81EA;&#x5DF1;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x5B50;&#x6570;&#x7EC4;&#x3002;</p>
+<pre><code>int maxSubArray(int[] nums) {  
+    int n = nums.length;  
+    if (n == 0) return 0;  
+    int[] dp = new int[n];  
+    // base case  
+    // &#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x524D;&#x9762;&#x6CA1;&#x6709;&#x5B50;&#x6570;&#x7EC4;  
+    dp[0] = nums[0];  
+    // &#x72B6;&#x6001;&#x8F6C;&#x79FB;&#x65B9;&#x7A0B;  
+    for (int i = 1; i &lt; n; i++) {  
+    dp[i] = Math.max(nums[i], nums[i] + dp[i - 1]);  
+    }  
+    // &#x5F97;&#x5230; nums &#x7684;&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;  
+    int res = Integer.MIN_VALUE;  
+    for (int i = 0; i &lt; n; i++) {  
+    res = Math.max(res, dp[i]);  
+    }  
+    return res;  
+}
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; qgao 2021-* all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-03-16 20:02:04
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="../section2/" class="navigation navigation-next navigation-unique" aria-label="Next page: 回溯">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"动态规划","level":"1.2.1","depth":2,"next":{"title":"回溯","level":"1.2.2","depth":2,"path":"chapter1/section2/index.md","ref":"chapter1/section2/index.md","articles":[]},"previous":{"title":"1. 常见算法","level":"1.2","depth":1,"ref":"","articles":[{"title":"动态规划","level":"1.2.1","depth":2,"path":"chapter1/section1/index.md","ref":"chapter1/section1/index.md","articles":[]},{"title":"回溯","level":"1.2.2","depth":2,"path":"chapter1/section2/index.md","ref":"chapter1/section2/index.md","articles":[]},{"title":"bfs","level":"1.2.3","depth":2,"path":"chapter1/section3/index.md","ref":"chapter1/section3/index.md","articles":[]},{"title":"滑动窗口","level":"1.2.4","depth":2,"path":"chapter1/section4/index.md","ref":"chapter1/section4/index.md","articles":[]},{"title":"树","level":"1.2.5","depth":2,"path":"chapter1/section5/index.md","ref":"chapter1/section5/index.md","articles":[]},{"title":"图","level":"1.2.6","depth":2,"path":"chapter1/section6/index.md","ref":"chapter1/section6/index.md","articles":[]},{"title":"链表","level":"1.2.7","depth":2,"path":"chapter1/section7/index.md","ref":"chapter1/section7/index.md","articles":[]},{"title":"子序列（动态规划）","level":"1.2.8","depth":2,"path":"chapter1/section8/index.md","ref":"chapter1/section8/index.md","articles":[]},{"title":"数据结构","level":"1.2.9","depth":2,"path":"chapter1/section9/index.md","ref":"chapter1/section9/index.md","articles":[]},{"title":"二分搜索","level":"1.2.10","depth":2,"path":"chapter1/section10/index.md","ref":"chapter1/section10/index.md","articles":[]},{"title":"随机","level":"1.2.11","depth":2,"path":"chapter1/section11/index.md","ref":"chapter1/section11/index.md","articles":[]},{"title":"去重","level":"1.2.12","depth":2,"path":"chapter1/section12/index.md","ref":"chapter1/section12/index.md","articles":[]},{"title":"双指针技巧","level":"1.2.13","depth":2,"path":"chapter1/section13/index.md","ref":"chapter1/section13/index.md","articles":[]},{"title":"其它技巧","level":"1.2.14","depth":2,"path":"chapter1/section14/index.md","ref":"chapter1/section14/index.md","articles":[]},{"title":"数学","level":"1.2.15","depth":2,"path":"chapter1/section15/index.md","ref":"chapter1/section15/index.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","back-to-top-button","chapter-fold","code","splitter","tbfed-pagefooter","page-treeview","popup","expandable-chapters","pageview-count","-sharing","sharing-plus","page-toc-button","livereload"],"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy qgao 2021-*","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"page-treeview":{"collapsed":false,"copyright":"Copyright &#169; qgao 2021-*","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":4,"minTocSize":2},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/section1/index.md","mtime":"2022-03-16T12:02:04.065Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-18T12:14:23.011Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

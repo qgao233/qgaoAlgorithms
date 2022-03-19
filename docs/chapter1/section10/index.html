@@ -1,0 +1,1057 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>二分搜索 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../section11/" />
+    
+    
+    <link rel="prev" href="../section9/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. 常见算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../section1/">
+            
+                <a href="../section1/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../section2/">
+            
+                <a href="../section2/">
+            
+                    
+                    回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../section3/">
+            
+                <a href="../section3/">
+            
+                    
+                    bfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../section4/">
+            
+                <a href="../section4/">
+            
+                    
+                    滑动窗口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../section5/">
+            
+                <a href="../section5/">
+            
+                    
+                    树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../section6/">
+            
+                <a href="../section6/">
+            
+                    
+                    图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../section7/">
+            
+                <a href="../section7/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../section8/">
+            
+                <a href="../section8/">
+            
+                    
+                    子序列（动态规划）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../section9/">
+            
+                <a href="../section9/">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.10" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    二分搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../section11/">
+            
+                <a href="../section11/">
+            
+                    
+                    随机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../section12/">
+            
+                <a href="../section12/">
+            
+                    
+                    去重
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../section13/">
+            
+                <a href="../section13/">
+            
+                    
+                    双指针技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../section14/">
+            
+                <a href="../section14/">
+            
+                    
+                    其它技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../section15/">
+            
+                <a href="../section15/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. 牛客题霸-模板速刷TOP101
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../chapter2/section1/">
+            
+                <a href="../../chapter2/section1/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../chapter2/section2/">
+            
+                <a href="../../chapter2/section2/">
+            
+                    
+                    二分查找/排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../chapter2/section3/">
+            
+                <a href="../../chapter2/section3/">
+            
+                    
+                    二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../chapter2/section4/">
+            
+                <a href="../../chapter2/section4/">
+            
+                    
+                    堆/栈/队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../chapter2/section5/">
+            
+                <a href="../../chapter2/section5/">
+            
+                    
+                    哈希
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../chapter2/section6/">
+            
+                <a href="../../chapter2/section6/">
+            
+                    
+                    递归/回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../chapter2/section7/">
+            
+                <a href="../../chapter2/section7/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../chapter2/section8/">
+            
+                <a href="../../chapter2/section8/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../chapter2/section9/">
+            
+                <a href="../../chapter2/section9/">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../chapter2/section10/">
+            
+                <a href="../../chapter2/section10/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../../chapter2/section11/">
+            
+                <a href="../../chapter2/section11/">
+            
+                    
+                    模拟
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. 笔试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../chapter3/section1/">
+            
+                <a href="../../chapter3/section1/">
+            
+                    
+                    格尔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../chapter3/section2/">
+            
+                <a href="../../chapter3/section2/">
+            
+                    
+                    360
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. leetcode
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../chapter4/section1/">
+            
+                <a href="../../chapter4/section1/">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. 算法练习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../chapter5/section1/">
+            
+                <a href="../../chapter5/section1/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../chapter5/section2/">
+            
+                <a href="../../chapter5/section2/">
+            
+                    
+                    排序算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../chapter5/section3/">
+            
+                <a href="../../chapter5/section3/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../chapter5/section4/">
+            
+                <a href="../../chapter5/section4/">
+            
+                    
+                    递归算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../chapter5/section5/">
+            
+                <a href="../../chapter5/section5/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../chapter5/section6/">
+            
+                <a href="../../chapter5/section6/">
+            
+                    
+                    回溯算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../chapter5/section7/">
+            
+                <a href="../../chapter5/section7/">
+            
+                    
+                    精度算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../../chapter5/section8/">
+            
+                <a href="../../chapter5/section8/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. 蓝桥杯
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../chapter6/section1/">
+            
+                <a href="../../chapter6/section1/">
+            
+                    
+                    入门练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../chapter6/section2/">
+            
+                <a href="../../chapter6/section2/">
+            
+                    
+                    基础练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../chapter6/section3/">
+            
+                <a href="../../chapter6/section3/">
+            
+                    
+                    进阶练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >二分搜索</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; qgao 2021-* all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#&#x5403;&#x9999;&#x8549;">&#x5403;&#x9999;&#x8549;</a><i></i></div></li>
+<li><div><a href="#&#x8FD0;&#x9001;&#x8D27;&#x7269;">&#x8FD0;&#x9001;&#x8D27;&#x7269;</a><i></i></div></li>
+<li><div><a href="#&#x5206;&#x5272;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5927;&#x503C;">&#x5206;&#x5272;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5927;&#x503C;</a><i></i></div></li>
+</ul>
+</div>
+
+<h1 id="&#x4E8C;&#x5206;&#x641C;&#x7D22;">&#x4E8C;&#x5206;&#x641C;&#x7D22;</h1>
+<h2 id="&#x5403;&#x9999;&#x8549;"><strong>&#x5403;&#x9999;&#x8549;</strong></h2>
+<p>&#x529B;&#x6263;&#x7B2C; 875 &#x9898;</p>
+<pre><code>// &#x5B9A;&#x4E49;&#xFF1A;&#x901F;&#x5EA6;&#x4E3A; x &#x65F6;&#xFF0C;&#x9700;&#x8981; f(x) &#x5C0F;&#x65F6;&#x5403;&#x5B8C;&#x6240;&#x6709;&#x9999;&#x8549;  
+// f(x) &#x968F;&#x7740; x &#x7684;&#x589E;&#x52A0;&#x5355;&#x8C03;&#x9012;&#x51CF;  
+int f(int[] piles, int x) {  
+    int hours = 0;  
+    for (int i = 0; i &lt; piles.length; i++) {  
+    hours += piles[i] / x;  
+    if (piles[i] % x &gt; 0) {  
+        hours++;  
+    }  
+    }  
+    return hours;  
+}  
+public int minEatingSpeed(int[] piles, int H) {  
+    int left = 1;  
+    //&#x9898;&#x76EE;&#x8BF4;&#x4E86;1 &lt;= piles[i] &lt;= 10^9&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x901F;&#x5EA6;&#x6700;&#x5FEB;&#x53EF;&#x4EE5;&#x4E00;&#x5C0F;&#x65F6;&#x5185;&#x5403;10^9  
+    //&#x5F00;&#x533A;&#x95F4;&#xFF0C;&#x9700;&#x8981;&#x52A0;1  
+    int right = 1000000000 + 1;  
+    while (left &lt; right) {  
+    int mid = left + (right - left) / 2;  
+    if (f(piles, mid) == H) {  
+        // &#x641C;&#x7D22;&#x5DE6;&#x4FA7;&#x8FB9;&#x754C;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x6536;&#x7F29;&#x53F3;&#x4FA7;&#x8FB9;&#x754C;  
+        right = mid;  
+    } else if (f(piles, mid) &lt; H) {  
+        // &#x9700;&#x8981;&#x8BA9; f(x) &#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5927;&#x4E00;&#x4E9B;  
+        right = mid;  
+    } else if (f(piles, mid) &gt; H) {  
+        // &#x9700;&#x8981;&#x8BA9; f(x) &#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5C0F;&#x4E00;&#x4E9B;  
+        left = mid + 1;  
+    }  
+    }  
+    return left;  
+}
+</code></pre><h2 id="&#x8FD0;&#x9001;&#x8D27;&#x7269;"><strong>&#x8FD0;&#x9001;&#x8D27;&#x7269;</strong></h2>
+<p>&#x529B;&#x6263;&#x7B2C; 1011 &#x9898;</p>
+<pre><code>// &#x5B9A;&#x4E49;&#xFF1A;&#x5F53;&#x8FD0;&#x8F7D;&#x80FD;&#x529B;&#x4E3A; x &#x65F6;&#xFF0C;&#x9700;&#x8981; f(x) &#x5929;&#x8FD0;&#x5B8C;&#x6240;&#x6709;&#x8D27;&#x7269;  
+// f(x) &#x968F;&#x7740; x &#x7684;&#x589E;&#x52A0;&#x5355;&#x8C03;&#x9012;&#x51CF;  
+int f(int[] weights, int x) {  
+    int days = 0;  
+    for (int i = 0; i &lt; weights.length; ) {  
+    // &#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x88C5;&#x8D27;&#x7269;  
+    int cap = x;  
+    while (i &lt; weights.length) {  
+        if (cap &lt; weights[i]) break; else cap -= weights[i];  
+        i++;  
+    }  
+    days++;  
+    }  
+    return days;  
+}  
+public int shipWithinDays(int[] weights, int days) {  
+    int left = 0;  
+    // &#x6CE8;&#x610F;&#xFF0C;right &#x662F;&#x5F00;&#x533A;&#x95F4;&#xFF0C;&#x6240;&#x4EE5;&#x989D;&#x5916;&#x52A0;&#x4E00;  
+    //&#x6700;&#x5927;&#x8F7D;&#x91CD;&#x663E;&#x7136;&#x5C31;&#x662F;weights&#x6570;&#x7EC4;&#x6240;&#x6709;&#x5143;&#x7D20;&#x4E4B;&#x548C;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4E00;&#x6B21;&#x628A;&#x6240;&#x6709;&#x8D27;&#x7269;&#x90FD;&#x88C5;&#x8D70;&#x3002;  
+    int right = 1;  
+    for (int w : weights) {  
+    left = Math.max(left, w);  
+    right += w;  
+    }  
+    while (left &lt; right) {  
+    int mid = left + (right - left) / 2;  
+    if (f(weights, mid) == days) {  
+        // &#x641C;&#x7D22;&#x5DE6;&#x4FA7;&#x8FB9;&#x754C;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x6536;&#x7F29;&#x53F3;&#x4FA7;&#x8FB9;&#x754C;  
+        right = mid;  
+    } else if (f(weights, mid) &lt; days) {  
+        // &#x9700;&#x8981;&#x8BA9; f(x) &#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5927;&#x4E00;&#x4E9B;  
+        right = mid;  
+    } else if (f(weights, mid) &gt; days) {  
+        // &#x9700;&#x8981;&#x8BA9; f(x) &#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5C0F;&#x4E00;&#x4E9B;  
+        left = mid + 1;  
+    }  
+    }  
+    return left;  
+}
+</code></pre><h2 id="&#x5206;&#x5272;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5927;&#x503C;"><strong>&#x5206;&#x5272;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5927;&#x503C;</strong></h2>
+<p>&#x529B;&#x6263;&#x7B2C; 410 &#x9898;</p>
+<p>&#x2460;&#x56DE;&#x6EAF;&#x66B4;&#x529B;&#x7A77;&#x4E3E;&#x53EF;&#x4EE5;&#x5728;&#x54EA;&#x51E0;&#x4E2A;&#x5730;&#x65B9;&#x8FDB;&#x884C;&#x5206;&#x5272;&#x7684;&#x7EC4;&#x5408;&#x4E2A;&#x6570;&#xFF0C;&#x6839;&#x636E;&#x7A77;&#x4E3E;&#x7ED3;&#x679C;&#x53BB;&#x8BA1;&#x7B97;&#x6BCF;&#x79CD;&#x65B9;&#x6848;&#x7684;&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x3002;</p>
+<p>&#x2461;</p>
+<pre><code>/* &#x8F85;&#x52A9;&#x51FD;&#x6570;&#xFF0C;&#x82E5;&#x9650;&#x5236;&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x4E3A; max&#xFF0C; 
+&#x8BA1;&#x7B97; nums &#x81F3;&#x5C11;&#x53EF;&#x4EE5;&#x88AB;&#x5206;&#x5272;&#x6210;&#x51E0;&#x4E2A;&#x5B50;&#x6570;&#x7EC4; */  
+int split(int[] nums, int max) {  
+    // &#x81F3;&#x5C11;&#x53EF;&#x4EE5;&#x5206;&#x5272;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x6570;&#x91CF;  
+    int count = 1;  
+    // &#x8BB0;&#x5F55;&#x6BCF;&#x4E2A;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x5143;&#x7D20;&#x548C;  
+    int sum = 0;  
+    for (int i = 0; i &lt; nums.length; i++) {  
+    if (sum + nums[i] &gt; max) {  
+        // &#x5982;&#x679C;&#x5F53;&#x524D;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x5927;&#x4E8E; max &#x9650;&#x5236;  
+        // &#x5219;&#x8FD9;&#x4E2A;&#x5B50;&#x6570;&#x7EC4;&#x4E0D;&#x80FD;&#x518D;&#x6DFB;&#x52A0;&#x5143;&#x7D20;&#x4E86;  
+        count++;  
+        sum = nums[i];  
+    } else {  
+        // &#x5F53;&#x524D;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x8FD8;&#x6CA1;&#x8FBE;&#x5230; max &#x9650;&#x5236;  
+        // &#x8FD8;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x5143;&#x7D20;  
+        sum += nums[i];  
+    }  
+    }  
+    return count;  
+}  
+int splitArray(int[] nums, int m) {  
+    // &#x4E00;&#x822C;&#x641C;&#x7D22;&#x533A;&#x95F4;&#x662F;&#x5DE6;&#x5F00;&#x53F3;&#x95ED;&#x7684;&#xFF0C;&#x6240;&#x4EE5; hi &#x8981;&#x989D;&#x5916;&#x52A0;&#x4E00;  
+    //&#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;max&#x7684;&#x53D6;&#x503C;&#x8303;&#x56F4;&#x663E;&#x7136;&#x662F;&#xFF0C;&#x5B50;&#x6570;&#x7EC4;&#x81F3;&#x5C11;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x6216;&#x81F3;&#x591A;&#x5305;&#x542B;&#x6574;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;  
+    int lo = getMax(nums), hi = getSum(nums) + 1;  
+    while (lo &lt; hi) {  
+    int mid = lo + (hi - lo) / 2;  
+    // &#x6839;&#x636E;&#x5206;&#x5272;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x4E2A;&#x6570;&#x6536;&#x7F29;&#x641C;&#x7D22;&#x533A;&#x95F4;  
+    int n = split(nums, mid);  
+    if (n == m) {  
+        // &#x6536;&#x7F29;&#x53F3;&#x8FB9;&#x754C;&#xFF0C;&#x8FBE;&#x5230;&#x641C;&#x7D22;&#x5DE6;&#x8FB9;&#x754C;&#x7684;&#x76EE;&#x7684;  
+        hi = mid;  
+    } else if (n &lt; m) {  
+        // &#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x4E0A;&#x9650;&#x9AD8;&#x4E86;&#xFF0C;&#x51CF;&#x5C0F;&#x4E00;&#x4E9B;  
+        hi = mid;  
+    } else if (n &gt; m) {  
+        // &#x6700;&#x5927;&#x5B50;&#x6570;&#x7EC4;&#x548C;&#x4E0A;&#x9650;&#x4F4E;&#x4E86;&#xFF0C;&#x589E;&#x52A0;&#x4E00;&#x4E9B;  
+        lo = mid + 1;  
+    }  
+    }  
+    return lo;  
+}  
+int getMax(int[] nums) {/* &#x8BA1;&#x7B97;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x6700;&#x5927;&#x503C; */}  
+int getSum(int[] nums) {/* &#x8BA1;&#x7B97;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x548C; */}
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; qgao 2021-* all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-03-06 10:22:46
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../section9/" class="navigation navigation-prev " aria-label="Previous page: 数据结构">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../section11/" class="navigation navigation-next " aria-label="Next page: 随机">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"二分搜索","level":"1.2.10","depth":2,"next":{"title":"随机","level":"1.2.11","depth":2,"path":"chapter1/section11/index.md","ref":"chapter1/section11/index.md","articles":[]},"previous":{"title":"数据结构","level":"1.2.9","depth":2,"path":"chapter1/section9/index.md","ref":"chapter1/section9/index.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","back-to-top-button","chapter-fold","code","splitter","tbfed-pagefooter","page-treeview","popup","expandable-chapters","pageview-count","-sharing","sharing-plus","page-toc-button","livereload"],"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy qgao 2021-*","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"page-treeview":{"collapsed":false,"copyright":"Copyright &#169; qgao 2021-*","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":4,"minTocSize":2},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/section10/index.md","mtime":"2022-03-06T02:22:46.796Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-18T12:14:23.011Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
