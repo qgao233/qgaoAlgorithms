@@ -88,7 +88,7 @@ public class Solution {
      * @return int整型
      */
     //上下左右
-    private int[][] direction = new int[][]{ {-1,0},{1,0},{0,-1},{0,1} };
+    private int[][] direction = new int[][]/\{\{/-1,0},{1,0},{0,-1},{0,1/\}\}/;
     
     public int solve (char[][] grid) {
         // write code here
@@ -267,7 +267,7 @@ public class Solution {
      * @param matrix int整型二维数组 描述矩阵的每个数
      * @return int整型
      */
-    private int[][] direction = new int[][]{{-1,0},{1,0},{0,-1},{0,1}};
+    private int[][] direction = new int[][]/\{\{/-1,0},{1,0},{0,-1},{0,1/\}\}/;
     public int maxLen = 0;
     private boolean[][] isVisited;
     
