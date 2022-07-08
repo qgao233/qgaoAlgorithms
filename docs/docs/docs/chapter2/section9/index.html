@@ -1,0 +1,1207 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>双指针 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../section10/" />
+    
+    
+    <link rel="prev" href="../section8/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. 常见算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../chapter1/section1/">
+            
+                <a href="../../chapter1/section1/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../chapter1/section2/">
+            
+                <a href="../../chapter1/section2/">
+            
+                    
+                    回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../chapter1/section3/">
+            
+                <a href="../../chapter1/section3/">
+            
+                    
+                    bfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../chapter1/section4/">
+            
+                <a href="../../chapter1/section4/">
+            
+                    
+                    滑动窗口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../chapter1/section5/">
+            
+                <a href="../../chapter1/section5/">
+            
+                    
+                    树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../chapter1/section6/">
+            
+                <a href="../../chapter1/section6/">
+            
+                    
+                    图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../chapter1/section7/">
+            
+                <a href="../../chapter1/section7/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../chapter1/section8/">
+            
+                <a href="../../chapter1/section8/">
+            
+                    
+                    子序列（动态规划）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../chapter1/section9/">
+            
+                <a href="../../chapter1/section9/">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../chapter1/section10/">
+            
+                <a href="../../chapter1/section10/">
+            
+                    
+                    二分搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../../chapter1/section11/">
+            
+                <a href="../../chapter1/section11/">
+            
+                    
+                    随机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../../chapter1/section12/">
+            
+                <a href="../../chapter1/section12/">
+            
+                    
+                    去重
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../../chapter1/section13/">
+            
+                <a href="../../chapter1/section13/">
+            
+                    
+                    双指针技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../../chapter1/section14/">
+            
+                <a href="../../chapter1/section14/">
+            
+                    
+                    其它技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../../chapter1/section15/">
+            
+                <a href="../../chapter1/section15/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. 牛客题霸-模板速刷TOP101
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../section1/">
+            
+                <a href="../section1/">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../section2/">
+            
+                <a href="../section2/">
+            
+                    
+                    二分查找/排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../section3/">
+            
+                <a href="../section3/">
+            
+                    
+                    二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../section4/">
+            
+                <a href="../section4/">
+            
+                    
+                    堆/栈/队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../section5/">
+            
+                <a href="../section5/">
+            
+                    
+                    哈希
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../section6/">
+            
+                <a href="../section6/">
+            
+                    
+                    递归/回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../section7/">
+            
+                <a href="../section7/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../section8/">
+            
+                <a href="../section8/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../section10/">
+            
+                <a href="../section10/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../section11/">
+            
+                <a href="../section11/">
+            
+                    
+                    模拟
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. 笔试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../chapter3/section1/">
+            
+                <a href="../../chapter3/section1/">
+            
+                    
+                    格尔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../chapter3/section2/">
+            
+                <a href="../../chapter3/section2/">
+            
+                    
+                    360
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. leetcode
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../chapter4/section1/">
+            
+                <a href="../../chapter4/section1/">
+            
+                    
+                    双指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. 算法练习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../chapter5/section1/">
+            
+                <a href="../../chapter5/section1/">
+            
+                    
+                    数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../chapter5/section2/">
+            
+                <a href="../../chapter5/section2/">
+            
+                    
+                    排序算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../chapter5/section3/">
+            
+                <a href="../../chapter5/section3/">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../chapter5/section4/">
+            
+                <a href="../../chapter5/section4/">
+            
+                    
+                    递归算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../chapter5/section5/">
+            
+                <a href="../../chapter5/section5/">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../chapter5/section6/">
+            
+                <a href="../../chapter5/section6/">
+            
+                    
+                    回溯算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../chapter5/section7/">
+            
+                <a href="../../chapter5/section7/">
+            
+                    
+                    精度算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../../chapter5/section8/">
+            
+                <a href="../../chapter5/section8/">
+            
+                    
+                    贪心算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. 蓝桥杯
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../chapter6/section1/">
+            
+                <a href="../../chapter6/section1/">
+            
+                    
+                    入门练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../chapter6/section2/">
+            
+                <a href="../../chapter6/section2/">
+            
+                    
+                    基础练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../chapter6/section3/">
+            
+                <a href="../../chapter6/section3/">
+            
+                    
+                    进阶练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >双指针</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; qgao 2021-* all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#87-&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x7684;&#x6570;&#x7EC4;">87. &#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x7684;&#x6570;&#x7EC4;</a><i></i></div></li>
+<li><div><a href="#88-&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x56DE;&#x6587;&#x5B57;&#x7B26;&#x4E32;">88. &#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x56DE;&#x6587;&#x5B57;&#x7B26;&#x4E32;</a><i></i></div></li>
+<li><div><a href="#89-&#x5408;&#x5E76;&#x533A;&#x95F4;">89. &#x5408;&#x5E76;&#x533A;&#x95F4;</a><i></i></div></li>
+<li><div><a href="#90-&#x6700;&#x5C0F;&#x8986;&#x76D6;&#x5B50;&#x4E32;">90. &#x6700;&#x5C0F;&#x8986;&#x76D6;&#x5B50;&#x4E32;</a><i></i></div></li>
+<li><div><a href="#91-&#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;">91. &#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;</a><i></i></div></li>
+<li><div><a href="#92-&#x6700;&#x957F;&#x65E0;&#x91CD;&#x590D;&#x5B50;&#x6570;&#x7EC4;">92. &#x6700;&#x957F;&#x65E0;&#x91CD;&#x590D;&#x5B50;&#x6570;&#x7EC4;</a><i></i></div></li>
+<li><div><a href="#93-&#x76DB;&#x6C34;&#x6700;&#x591A;&#x7684;&#x5BB9;&#x5668;">93. &#x76DB;&#x6C34;&#x6700;&#x591A;&#x7684;&#x5BB9;&#x5668;</a><i></i></div></li>
+<li><div><a href="#94-&#x63A5;&#x96E8;&#x6C34;&#x95EE;&#x9898;">94. &#x63A5;&#x96E8;&#x6C34;&#x95EE;&#x9898;</a><i></i></div></li>
+</ul>
+</div>
+
+<h1 id="&#x53CC;&#x6307;&#x9488;">&#x53CC;&#x6307;&#x9488;</h1>
+<h2 id="87-&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x7684;&#x6570;&#x7EC4;">87. &#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x7684;&#x6570;&#x7EC4;</h2>
+<pre><code>import java.util.*;
+public class Solution {
+    public void merge(int A[], int m, int B[], int n) {
+        //src &#x2013; &#x6E90;&#x6570;&#x7EC4;&#x3002;
+        //srcPos &#x2013; &#x6E90;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#x3002;
+        //dest &#x2013; &#x76EE;&#x6807;&#x6570;&#x7EC4;&#x3002;
+        //destPos &#x2013; &#x76EE;&#x6807;&#x6570;&#x636E;&#x4E2D;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#x3002;
+        //length &#x2013; &#x8981;&#x590D;&#x5236;&#x7684;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6570;&#x91CF;
+        System.arraycopy(B, 0, A, m, n);
+        //&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x662F; Vladimir Yaroslavskiy&#x3001;Jon Bentley &#x548C; Joshua Bloch &#x7684;&#x53CC;&#x67A2;&#x8F74;&#x5FEB;&#x901F;&#x6392;&#x5E8F;
+        //a &#x2013; &#x8981;&#x6392;&#x5E8F;&#x7684;&#x6570;&#x7EC4;
+        Arrays.sort(A);
+    }
+}
+</code></pre><h2 id="88-&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x56DE;&#x6587;&#x5B57;&#x7B26;&#x4E32;">88. &#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x56DE;&#x6587;&#x5B57;&#x7B26;&#x4E32;</h2>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * &#x4EE3;&#x7801;&#x4E2D;&#x7684;&#x7C7B;&#x540D;&#x3001;&#x65B9;&#x6CD5;&#x540D;&#x3001;&#x53C2;&#x6570;&#x540D;&#x5DF2;&#x7ECF;&#x6307;&#x5B9A;&#xFF0C;&#x8BF7;&#x52FF;&#x4FEE;&#x6539;&#xFF0C;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x65B9;&#x6CD5;&#x89C4;&#x5B9A;&#x7684;&#x503C;&#x5373;&#x53EF;
+     * 
+     * @param str string&#x5B57;&#x7B26;&#x4E32; &#x5F85;&#x5224;&#x65AD;&#x7684;&#x5B57;&#x7B26;&#x4E32;
+     * @return bool&#x5E03;&#x5C14;&#x578B;
+     */
+    public boolean judge (String str) {
+        // write code here
+        if (str.length() == 0)
+            return true;
+        //&#x4E24;&#x4E2A;&#x6307;&#x9488;&#xFF0C;&#x4E00;&#x4E2A;&#x4ECE;&#x5DE6;&#x8FB9;&#x5F00;&#x59CB;&#xFF0C;&#x4E00;&#x4E2A;&#x4ECE;&#x53F3;&#x8FB9;&#x5F00;&#x59CB;&#xFF0C;&#x6BCF;&#x6B21;&#x4E24;&#x4E2A;
+        //&#x6307;&#x9488;&#x90FD;&#x540C;&#x65F6;&#x5F80;&#x4E2D;&#x95F4;&#x632A;&#xFF0C;&#x53EA;&#x8981;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x6307;&#x5411;&#x7684;&#x5B57;&#x7B26;&#x4E0D;&#x4E00;&#x6837;&#x5C31;&#x8FD4;&#x56DE;false
+        int left = 0;
+        int right = str.length() - 1;
+        while (left &lt; right) {
+            if (str.charAt(left++) != str.charAt(right--))
+                return false;
+        }
+        return true;
+    }
+}
+</code></pre><h2 id="89-&#x5408;&#x5E76;&#x533A;&#x95F4;">89. &#x5408;&#x5E76;&#x533A;&#x95F4;</h2>
+<pre><code>import java.util.*;
+/**
+ * Definition for an interval.
+ * public class Interval {
+ *     int start;
+ *     int end;
+ *     Interval() { start = 0; end = 0; }
+ *     Interval(int s, int e) { start = s; end = e; }
+ * }
+ */
+public class Solution {
+    //&#x5148;&#x5347;&#x5E8F;,&#x518D;&#x6A21;&#x62DF;
+    public ArrayList&lt;Interval&gt; merge(ArrayList&lt;Interval&gt; intervals) {
+        Collections.sort(intervals, (v1, v2)-&gt;v1.start - v2.start);
+        ArrayList&lt;Interval&gt; res = new ArrayList&lt;Interval&gt;();
+        int idx = -1;
+        for(Interval interval : intervals){
+            if(idx == -1 || interval.start &gt; res.get(idx).end){ //&#x82E5;&#x6570;&#x7EC4;&#x4E3A;&#x7A7A;&#xFF0C;&#x6216;&#x5F53;&#x524D;&#x533A;&#x95F4;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#x5C0F;&#x4E8E;&#x7ED3;&#x679C;list&#x4E2D;&#x6700;&#x540E;&#x533A;&#x95F4;&#x7684;&#x7EC8;&#x6B62;&#x4F4D;&#x7F6E;
+                //&#x4E0D;&#x5408;&#x5E76;&#xFF0C;&#x76F4;&#x63A5;&#x5C06;&#x5F53;&#x524D;&#x533A;&#x95F4;&#x52A0;&#x5165;&#x7ED3;&#x679C;list
+                res.add(interval);
+                idx++;
+            }else{    //&#x5408;&#x5E76;&#xFF0C;&#x9009;&#x62E9;&#x8F83;&#x5927;&#x7684;&#x6570;&#x4F5C;&#x4E3A;&#x6700;&#x540E;&#x533A;&#x95F4;&#x7684;&#x7EC8;&#x6B62;&#x4F4D;&#x7F6E;
+                res.get(idx).end = Math.max(interval.end, res.get(idx).end);
+            }
+        }
+        return res;
+    }
+}
+</code></pre><h2 id="90-&#x6700;&#x5C0F;&#x8986;&#x76D6;&#x5B50;&#x4E32;">90. &#x6700;&#x5C0F;&#x8986;&#x76D6;&#x5B50;&#x4E32;</h2>
+<p>&#x7ED9;&#x51FA;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x4E32; s &#x548C; t&#xFF0C;&#x8981;&#x6C42;&#x5728; s &#x4E2D;&#x627E;&#x51FA;&#x6700;&#x77ED;&#x7684;&#x5305;&#x542B; t &#x4E2D;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x7684;&#x8FDE;&#x7EED;&#x5B50;&#x4E32;&#x3002;</p>
+<p>&#x6570;&#x636E;&#x8303;&#x56F4;&#xFF1A;0 \le |S|,|T| \le100000&#x2264;&#x2223;S&#x2223;,&#x2223;T&#x2223;&#x2264;10000&#xFF0C;&#x4FDD;&#x8BC1;s&#x548C;t&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x4EC5;&#x5305;&#x542B;&#x5927;&#x5C0F;&#x5199;&#x82F1;&#x6587;&#x5B57;&#x6BCD;</p>
+<p>&#x8981;&#x6C42;&#xFF1A;&#x8FDB;&#x9636;&#xFF1A;&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6; O(n)O(n) &#xFF0C; &#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6; O(n)O(n)</p>
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>S =&quot;XDOYEZODEYXNZ&quot;S=&quot;XDOYEZODEYXNZ&quot;
+T =&quot;XYZ&quot;T=&quot;XYZ&quot;
+&#x627E;&#x51FA;&#x7684;&#x6700;&#x77ED;&#x5B50;&#x4E32;&#x4E3A;&quot;YXNZ&quot;&quot;YXNZ&quot;.
+</code></pre><p>&#x6CE8;&#x610F;&#xFF1A;</p>
+<ul>
+<li>&#x5982;&#x679C; s &#x4E2D;&#x6CA1;&#x6709;&#x5305;&#x542B; t &#x4E2D;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x7684;&#x5B50;&#x4E32;&#xFF0C;&#x8FD4;&#x56DE;&#x7A7A;&#x5B57;&#x7B26;&#x4E32; &#x201C;&#x201D;&#xFF1B;</li>
+<li>&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x4E32;&#x53EF;&#x80FD;&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x4F46;&#x662F;&#x9898;&#x76EE;&#x4FDD;&#x8BC1;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x6700;&#x77ED;&#x7684;&#x5B50;&#x4E32;&#x552F;&#x4E00;&#x3002;</li>
+</ul>
+<p>&#x6ED1;&#x52A8;&#x7A97;&#x53E3;</p>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * 
+     * @param S string&#x5B57;&#x7B26;&#x4E32; 
+     * @param T string&#x5B57;&#x7B26;&#x4E32; 
+     * @return string&#x5B57;&#x7B26;&#x4E32;
+     */
+    public String minWindow (String s, String t) {
+        // write code here
+        // l(left): &#x5DE6;&#x8FB9;&#x754C;
+        // r(right): &#x53F3;&#x8FB9;&#x754C;
+        int l = 0, r = 0;
+        // size=r-l+1: &#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;Integer.MAX_VALUE&#x65B9;&#x4FBF;&#x503C;&#x4EA4;&#x6362;
+        int size = Integer.MAX_VALUE;
+        // needCount: &#x5F53;&#x524D;&#x904D;&#x5386;&#x4E0B;&#xFF0C;&#x6EE1;&#x8DB3;t&#x8FD8;&#x9700;&#x8981;&#x7684;&#x5143;&#x7D20;&#x4E2A;&#x6570;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x3001;&#x6700;&#x5927;&#x503C;&#x662F;t.length&#xFF0C;&#x4E3A;0&#x65F6;&#x8868;&#x793A;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x5185;&#x5BB9;&#x8986;&#x76D6;&#x4E86;t&#x4E2D;&#x6240;&#x6709;&#x5143;&#x7D20;
+        int needCount = t.length();
+        // start: &#x8BB0;&#x5F55;&#x6709;&#x6548;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;(&#x5DE6;&#x8FB9;&#x754C;)&#xFF0C;&#x65B9;&#x4FBF;&#x540E;&#x7EED;&#x67E5;&#x627E;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x4E32;
+        int start = 0;
+        // &#x5B57;&#x5178;need: &#x8BB0;&#x5F55;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x4E2D;&#x9700;&#x8981;t&#x4E2D;&#x5404;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x6570;&#x91CF;
+        // ASCII&#x65B9;&#x5F0F;&#x5B58;&#x50A8; [A-Z]&#xFF1A;65-90  [a-z]&#xFF1A;97-122
+        // need[97]=2 &#x8868;&#x793A;t&#x4E2D;&#x9700;&#x8981;2&#x4E2A;a
+        // t&#x4E2D;&#x5BF9;&#x5E94;&#x5B57;&#x7B26;&#x7684;need[]&#x5FC5;&#x987B;&gt;=0
+        // &#x82E5;need[]&lt;0&#x8868;&#x793A;&#x662F;&#x4E2A;&#x591A;&#x4F59;&#x7684;&#x5B57;&#x7B26;
+        int[] need = new int[128];
+        // &#x6839;&#x636E;t&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5411;&#x5B57;&#x5178;need&#x6DFB;&#x52A0;&#x5143;&#x7D20;
+        for (int i = 0; i &lt; t.length(); i++)
+            need[t.charAt(i)]++;
+        // &#x5FAA;&#x73AF;&#x6761;&#x4EF6;&#xFF0C;&#x53F3;&#x8FB9;&#x754C;&#x4E0D;&#x80FD;&#x6EA2;&#x51FA;
+        while (r &lt; s.length()) {
+            // &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x904D;&#x5386;&#x7684;&#x5143;&#x7D20;&#x5B57;&#x7B26;
+            char c = s.charAt(r);
+            // &#x82E5;&#x5F53;&#x524D;&#x904D;&#x5386;&#x5B57;&#x7B26;&#x662F;t&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#xFF0C;needCount&#x9700;&#x8981;-1
+            if (need[c] &gt; 0)
+                needCount--;
+            // &#x65E0;&#x8BBA;c&#x5728;&#x4E0D;&#x5728;t&#x4E2D;&#xFF0C;&#x90FD;&#x8981;&#x5728;need&#x4E2D;-1
+            // &#x76EE;&#x7684;&#xFF1A;&#x5229;&#x7528;&#x6B63;&#x8D1F;&#x6765;&#x533A;&#x5206;&#x5B57;&#x7B26;&#x662F;&#x5426;&#x591A;&#x4F59;&#x7684;&#x8FD8;&#x662F;&#x6709;&#x7528;&#x7684;
+            need[c]--;
+            // needCount==0&#x8868;&#x793A;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x6EE1;&#x8DB3;t&#x4E2D;&#x6240;&#x6709;&#x5143;&#x7D20;
+            if (needCount == 0) {
+                // &#x5224;&#x65AD;&#x5DE6;&#x8FB9;&#x754C;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x6536;&#x7F29;
+                // &#x5982;&#x679C;l&#x5BF9;&#x5E94;&#x5B57;&#x7B26;&#x7684;need[]&lt;0&#xFF0C;&#x8868;&#x793A;&#x662F;&#x4E2A;&#x591A;&#x4F59;&#x7684;&#x5B57;&#x7B26;
+                while (l &lt; r &amp;&amp; need[s.charAt(l)] &lt; 0) {
+                    // &#x5728;need[]&#x4E2D;&#x7EF4;&#x62A4;&#x66F4;&#x65B0;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;
+                    need[s.charAt(l)]++;
+                    // &#x5DE6;&#x8FB9;&#x754C;&#x5411;&#x53F3;&#x79FB;&#xFF0C;&#x79FB;&#x9664;&#x8FD9;&#x4E2A;&#x591A;&#x4F59;&#x5B57;&#x7B26;
+                    l++;
+                }
+                // &#x5224;&#x65AD;&#x662F;&#x5426;&#x66F4;&#x65B0;&#x6709;&#x6548;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x5927;&#x5C0F;
+                if (r - l + 1 &lt; size) {
+                    // &#x66F4;&#x65B0;
+                    size = r - l + 1;
+                    // &#x8BB0;&#x5F55;&#x6709;&#x6548;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;(&#x5DE6;&#x8FB9;&#x754C;)&#xFF0C;&#x65B9;&#x4FBF;&#x67E5;&#x627E;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x4E32;
+                    start = l;
+                }
+                // &#x5DE6;&#x8FB9;&#x754C;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x7B26;&#x8BA1;&#x6570;&#x9700;&#x8981;+1
+                need[s.charAt(l)]++;
+                // &#x91CD;&#x65B0;&#x7EF4;&#x62A4;&#x5DE6;&#x8FB9;&#x754C;
+                l++;
+                // &#x91CD;&#x65B0;&#x7EF4;&#x62A4;&#x5F53;&#x524D;&#x7684;needCount
+                needCount++;
+            }
+            // &#x53F3;&#x8FB9;&#x754C;&#x5411;&#x53F3;&#x79FB;&#xFF0C;&#x5BFB;&#x627E;&#x4E0B;&#x4E00;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x6709;&#x6548;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;
+            r++;
+        }
+        return size == Integer.MAX_VALUE ? &quot;&quot; : s.substring(start, start + size);
+    }
+}
+</code></pre><h2 id="91-&#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;">91. &#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;</h2>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * &#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;
+     * @param str string&#x5B57;&#x7B26;&#x4E32; 
+     * @return string&#x5B57;&#x7B26;&#x4E32;
+     */
+    public String solve (String str) {
+        // write code here
+        return new StringBuilder(str).reverse().toString();
+    }
+}
+</code></pre><h2 id="92-&#x6700;&#x957F;&#x65E0;&#x91CD;&#x590D;&#x5B50;&#x6570;&#x7EC4;">92. &#x6700;&#x957F;&#x65E0;&#x91CD;&#x590D;&#x5B50;&#x6570;&#x7EC4;</h2>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * 
+     * @param arr int&#x6574;&#x578B;&#x4E00;&#x7EF4;&#x6570;&#x7EC4; the array
+     * @return int&#x6574;&#x578B;
+     */
+    public int maxLength (int[] arr) {
+        // write code here
+        Queue&lt;Integer&gt; queue = new LinkedList&lt;&gt;();
+        int res = 0;
+        for (int c : arr) {
+            while (queue.contains(c)) {
+                //&#x5982;&#x679C;&#x6709;&#x91CD;&#x590D;&#x7684;&#xFF0C;&#x961F;&#x5934;&#x51FA;&#x961F;
+                queue.poll();
+            }
+            //&#x6DFB;&#x52A0;&#x5230;&#x961F;&#x5C3E;
+            queue.add(c);
+            res = Math.max(res, queue.size());
+        }
+        return res;
+    }
+}
+</code></pre><h2 id="93-&#x76DB;&#x6C34;&#x6700;&#x591A;&#x7684;&#x5BB9;&#x5668;">93. &#x76DB;&#x6C34;&#x6700;&#x591A;&#x7684;&#x5BB9;&#x5668;</h2>
+<p>&#x603B;&#x662F;&#x79FB;&#x52A8;&#x77ED;&#x7684;&#x90A3;&#x8FB9;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x4ECE;&#x7EDF;&#x8BA1;&#x4E0A;&#x770B;&#x4E0D;&#x4F1A;&#x4E22;&#x5931;&#x6700;&#x5927;&#x9762;&#x79EF;&#x3002;</p>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * &#x4EE3;&#x7801;&#x4E2D;&#x7684;&#x7C7B;&#x540D;&#x3001;&#x65B9;&#x6CD5;&#x540D;&#x3001;&#x53C2;&#x6570;&#x540D;&#x5DF2;&#x7ECF;&#x6307;&#x5B9A;&#xFF0C;&#x8BF7;&#x52FF;&#x4FEE;&#x6539;&#xFF0C;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x65B9;&#x6CD5;&#x89C4;&#x5B9A;&#x7684;&#x503C;&#x5373;&#x53EF;
+     *
+     * 
+     * @param height int&#x6574;&#x578B;&#x4E00;&#x7EF4;&#x6570;&#x7EC4; 
+     * @return int&#x6574;&#x578B;
+     */
+    public int maxArea (int[] height) {
+        // write code here
+        int l = 0, r = height.length-1;
+        int ans = 0;
+        while(l&lt;r){
+            int area = Math.min(height[l], height[r]) * (r-l);
+            ans = Math.max(area, ans);
+            if(height[l] &lt;= height[r]){  //&#x5DE6;&#x4FA7;&#x4E3A;&#x77ED;&#x8FB9;&#xFF0C;&#x79FB;&#x52A8;&#x77ED;&#x8FB9;
+                l++;
+            } else{  //&#x53F3;&#x4FA7;&#x4E3A;&#x77ED;&#x8FB9;&#xFF0C;&#x79FB;&#x52A8;&#x77ED;&#x8FB9;
+                r--;
+            }
+
+        }
+        return ans;
+    }
+}
+</code></pre><h2 id="94-&#x63A5;&#x96E8;&#x6C34;&#x95EE;&#x9898;">94. &#x63A5;&#x96E8;&#x6C34;&#x95EE;&#x9898;</h2>
+<p>&#x53CC;&#x6307;&#x9488;&#x6C42;&#x89E3;,&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x6700;&#x5DE6;&#x8FB9;&#xFF0C;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x6700;&#x53F3;&#x8FB9;&#x3002;</p>
+<p>&#x6700;&#x5F00;&#x59CB;&#x7684;&#x65F6;&#x5019;&#x5982;&#x679C;&#x5DE6;&#x8FB9;&#x67F1;&#x5B50;&#x4ECE;&#x5DE6;&#x5F80;&#x53F3;&#x662F;&#x9012;&#x589E;&#x7684;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E9B;&#x67F1;&#x5B50;&#x662F;&#x4E0D;&#x80FD;&#x76DB;&#x6C34;&#x7684;&#xFF0C;&#x540C;&#x7406;&#x6700;&#x5F00;&#x59CB;&#x7684;&#x65F6;&#x5019;&#x5982;&#x679C;&#x53F3;&#x8FB9;&#x7684;&#x67F1;&#x5B50;&#x4ECE;&#x53F3;&#x5F80;&#x5DE6;&#x662F;&#x9012;&#x589E;&#x7684;&#xFF0C;&#x4E5F;&#x662F;&#x4E0D;&#x80FD;&#x76DB;&#x6C34;&#x7684;&#x3002;</p>
+<p>&#x786E;&#x5B9A;left&#x548C;right&#x7684;&#x503C;&#x4E4B;&#x540E;&#xFF0C;&#x5728;left&#x548C;right&#x4E4B;&#x95F4;&#x76F8;&#x5F53;&#x4E8E;&#x6784;&#x6210;&#x4E86;&#x4E00;&#x4E2A;&#x6876;&#xFF0C;&#x6876;&#x7684;&#x9AD8;&#x5EA6;&#x662F;&#x6700;&#x77EE;&#x7684;&#x90A3;&#x6839;&#x67F1;&#x5B50;&#x3002;&#x7136;&#x540E;&#x6211;&#x4EEC;&#x4ECE;&#x4E24;&#x8FB9;&#x5F80;&#x4E2D;&#x95F4;&#x9010;&#x4E2A;&#x67E5;&#x627E;&#xFF0C;&#x5982;&#x679C;&#x67E5;&#x627E;&#x7684;&#x67F1;&#x5B50;&#x9AD8;&#x5EA6;&#x5C0F;&#x4E8E;&#x6876;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x90A3;&#x4E48;&#x76DB;&#x6C34;&#x91CF;&#x5C31;&#x662F;&#x6876;&#x7684;&#x9AD8;&#x5EA6;&#x51CF;&#x53BB;&#x6211;&#x4EEC;&#x67E5;&#x627E;&#x7684;&#x67F1;&#x5B50;&#x9AD8;&#x5EA6;&#xFF0C;&#x5982;&#x679C;&#x67E5;&#x627E;&#x7684;&#x67F1;&#x5B50;&#x5927;&#x4E8E;&#x6876;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x66F4;&#x65B0;&#x6876;&#x7684;&#x9AD8;&#x5EA6;&#x3002;</p>
+<pre><code>import java.util.*;
+
+
+public class Solution {
+    /**
+     * max water
+     * @param arr int&#x6574;&#x578B;&#x4E00;&#x7EF4;&#x6570;&#x7EC4; the array
+     * @return long&#x957F;&#x6574;&#x578B;
+     */
+    public long maxWater (int[] arr) {
+        // write code here
+        if (arr.length &lt;= 2)
+            return 0;
+        long water = 0;
+        int left = 0, right = arr.length - 1;
+        //&#x6700;&#x5F00;&#x59CB;&#x7684;&#x65F6;&#x5019;&#x786E;&#x5B9A;left&#x548C;right&#x7684;&#x8FB9;&#x754C;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;left&#x548C;right&#x662F;
+        //&#x67F1;&#x5B50;&#x7684;&#x4E0B;&#x6807;&#xFF0C;&#x4E0D;&#x662F;&#x67F1;&#x5B50;&#x7684;&#x9AD8;&#x5EA6;
+        while (left &lt; right &amp;&amp; arr[left] &lt;= arr[left + 1])
+            left++;
+        while (left &lt; right &amp;&amp; arr[right] &lt;= arr[right - 1])
+            right--;
+
+        while (left &lt; right) {
+            int leftValue = arr[left];
+            int rightValue = arr[right];
+            //&#x5728;left&#x548C;right&#x4E24;&#x6839;&#x67F1;&#x5B50;&#x4E4B;&#x95F4;&#x8BA1;&#x7B97;&#x76DB;&#x6C34;&#x91CF;
+            if (leftValue &lt;= rightValue) {
+                //&#x5982;&#x679C;&#x5DE6;&#x8FB9;&#x67F1;&#x5B50;&#x9AD8;&#x5EA6;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x53F3;&#x8FB9;&#x67F1;&#x5B50;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x6839;&#x636E;&#x6728;&#x6876;&#x539F;&#x7406;&#xFF0C;
+                // &#x6876;&#x7684;&#x9AD8;&#x5EA6;&#x5C31;&#x662F;&#x5DE6;&#x8FB9;&#x67F1;&#x5B50;&#x7684;&#x9AD8;&#x5EA6;
+                while (left &lt; right &amp;&amp; leftValue &gt;= arr[++left]) {
+                    water += leftValue - arr[left];
+                }
+            } else {
+                //&#x5982;&#x679C;&#x5DE6;&#x8FB9;&#x67F1;&#x5B50;&#x9AD8;&#x5EA6;&#x5927;&#x4E8E;&#x53F3;&#x8FB9;&#x67F1;&#x5B50;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x6839;&#x636E;&#x6728;&#x6876;&#x539F;&#x7406;&#xFF0C;
+                // &#x6876;&#x7684;&#x9AD8;&#x5EA6;&#x5C31;&#x662F;&#x53F3;&#x8FB9;&#x67F1;&#x5B50;&#x7684;&#x9AD8;&#x5EA6;
+                while (left &lt; right &amp;&amp; arr[--right] &lt;= rightValue) {
+                    water += rightValue - arr[right];
+                }
+            }
+        }
+        return water;
+    }
+}
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; qgao 2021-* all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-03-16 21:32:30
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../section8/" class="navigation navigation-prev " aria-label="Previous page: 字符串">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../section10/" class="navigation navigation-next " aria-label="Next page: 贪心算法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"双指针","level":"1.3.9","depth":2,"next":{"title":"贪心算法","level":"1.3.10","depth":2,"path":"chapter2/section10/index.md","ref":"chapter2/section10/index.md","articles":[]},"previous":{"title":"字符串","level":"1.3.8","depth":2,"path":"chapter2/section8/index.md","ref":"chapter2/section8/index.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","back-to-top-button","chapter-fold","code","splitter","tbfed-pagefooter","page-treeview","popup","expandable-chapters","pageview-count","-sharing","sharing-plus","page-toc-button"],"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy qgao 2021-*","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"page-treeview":{"collapsed":false,"copyright":"Copyright &#169; qgao 2021-*","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":4,"minTocSize":2},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2/section9/index.md","mtime":"2022-03-16T13:32:30.188Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-19T11:26:47.297Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

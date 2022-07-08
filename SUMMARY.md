@@ -33,6 +33,7 @@
 * [3. 笔试]()
    * [格尔](chapter3/section1/index.md)
    * [360](chapter3/section2/index.md)
+   * [兴业数金](chapter3/section3/index.md)
 * [4. leetcode]()
    * [双指针](chapter4/section1/index.md)
 * [5. 算法练习]()
