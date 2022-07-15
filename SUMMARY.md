@@ -50,3 +50,5 @@
    * [入门练习](chapter6/section1/index.md)
    * [基础练习](chapter6/section2/index.md)
    * [进阶练习](chapter6/section3/index.md)
+* [7. sql练习]()
+   * [leetcode SQL 入门](mysql/leetcode1/index.md)
